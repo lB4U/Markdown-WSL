@@ -1,6 +1,6 @@
 # WSL - Windows Subsystem for Linux 🐧
 
-<img src="https://github.com/user-attachments/assets/aaeed8ed-65a0-4495-a906-3ad85db3aff8" alt="WSL Logo" width="200"/>
+<img src="https://github.com/user-attachments/assets/aaeed8ed-65a0-4495-a906-3ad85db3aff8" alt="WSL Logo" width="500"/>
 
 **WSL** (Windows Subsystem for Linux) allows you to run Linux distributions natively on Windows 10 and Windows 11, enabling developers to use a Linux environment alongside their Windows applications. 🌟
 
