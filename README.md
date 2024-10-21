@@ -18,8 +18,10 @@
 
 ### For Windows 10 or Windows 11:
 
-1. **Enable WSL Feature**:
-   Open Command Prompt (CMD) or PowerShell as an administrator, then run the following command to enable the WSL feature:
-   ```bash
-   dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+1. **Open PowerShell**:
+   Open **PowerShell** as an administrator.
 
+2. **Install WSL**:
+   Run the following command to install WSL and the default Linux distribution:
+   ```bash
+   wsl --install
