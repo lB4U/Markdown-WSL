@@ -96,8 +96,5 @@
 - [Official WSL Documentation](https://docs.microsoft.com/en-us/windows/wsl/)
 - [WSL Installation Guide by Microsoft](https://docs.microsoft.com/en-us/windows/wsl/install)
 
-### Accessing Windows Files from WSL 💻
 
-You can access Windows files using the `/mnt` path:
-```bash
-cd /mnt/c/Users/YourUsername/Documents
+
