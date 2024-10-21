@@ -72,8 +72,6 @@ $\color{lightgray}{\text{WSL (Windows Subsystem for Linux) allows you to run Lin
 - To run WSL as the **root** user, use:
   ```bash
   wsl -u root                  
-
-
 ## Alerts ⚠️
 
 > [!WARNING]  
@@ -87,6 +85,9 @@ $\color{lightgray}{\text{WSL (Windows Subsystem for Linux) allows you to run Lin
 > ```bash
 > sudo apt update && sudo apt upgrade
 > ```
+
+
+[^1]: Loop of Thanks for Dr. Deafallah Click [here](#new-warning-section-thanks-for-dr-) to jump to the section.
 
 ---
 
@@ -123,6 +124,11 @@ $\color{lightgray}{\text{WSL (Windows Subsystem for Linux) allows you to run Lin
 - [WSL Installation Guide by Microsoft](https://docs.microsoft.com/en-us/windows/wsl/install)
 
 
+## $\color{darkred}{\textbf{Ending Warning !!} }$ [^1]
+
+> [!WARNING]  
+> ![Salute GIF](https://media.giphy.com/media/3oz8xxN9TDllCahbQA/giphy.gif?cid=ecf05e47me221cms6qkdd0za7kvwlta3wdlb3wcanvw78ky1&ep=v1_gifs_search&rid=giphy.gif&ct=g)  
+> Thanks for Dr. Deafallah 🤍
 
 
 
