@@ -1,2 +1,25 @@
-# Markdown-WSL
-Comprehensive documentation for installing, configuring, and using Windows Subsystem for Linux (WSL).
+# WSL - Windows Subsystem for Linux
+
+**WSL** (Windows Subsystem for Linux) is a feature in Windows that allows you to run Linux distributions like Ubuntu and Debian directly on Windows without the need for a virtual machine.
+
+---
+
+## Key Features
+
+- **Run Linux Distributions**: Run distributions like Ubuntu and Debian directly on Windows.
+- **Windows and Linux Integration**: Use Linux commands alongside Windows apps.
+- **File Management**: Full access to both Windows and Linux file systems.
+- **Run Docker**: Support for Docker and other Linux-based development tools.
+- **High Performance**: Excellent performance without significant resource overhead like virtual machines.
+
+---
+
+## Installation Guide
+
+### For Windows 10 or Windows 11:
+
+1. **Enable WSL Feature**:
+   Open Command Prompt (CMD) or PowerShell as an administrator, then run the following command to enable the WSL feature:
+   ```bash
+   dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+
