@@ -1,6 +1,6 @@
 # WSL - Windows Subsystem for Linux 🐧
 
-<img src="https://github.com/user-attachments/assets/aaeed8ed-65a0-4495-a906-3ad85db3aff8" alt="WSL Logo" width="500"/>
+<img src="https://github.com/user-attachments/assets/aaeed8ed-65a0-4495-a906-3ad85db3aff8" alt="WSL Logo" width="700"/>
 
 **WSL** (Windows Subsystem for Linux) allows you to run Linux distributions natively on Windows 10 and Windows 11, enabling developers to use a Linux environment alongside their Windows applications. 🌟
 
@@ -69,4 +69,35 @@
 - Launch your installed Linux distribution by typing the following command in **Command Prompt** or **PowerShell**:
   ```bash
   wsl
+### Run as root
 
+- To run WSL as the **root** user, use:
+  ```bash
+  wsl -u root                        
+
+### Integrations with Other Tools 🔗
+
+| Application              | Description                                             | Link                      |
+|--------------------------|---------------------------------------------------------|---------------------------|
+| Docker                   | Manage containers and run multiple apps on Linux       | [Visit Docker](https://www.docker.com/) 🐳 |
+| Visual Studio Code       | Powerful IDE with WSL support                          | [Visit VS Code](https://code.visualstudio.com/) 💻 |
+
+
+## Troubleshooting 🛠️
+
+| Issue                      | Solution                                               |
+|----------------------------|-------------------------------------------------------|
+| WSL not starting           | Ensure WSL and Virtual Machine Platform are enabled. Restart your computer. 🔄 |
+| Distribution not working   | Update the distribution: `sudo apt update && sudo apt upgrade` |
+| Failed to upgrade to WSL 2 | Check BIOS settings for virtualization support.      |
+
+## Additional Resources 📖
+
+- [Official WSL Documentation](https://docs.microsoft.com/en-us/windows/wsl/)
+- [WSL Installation Guide by Microsoft](https://docs.microsoft.com/en-us/windows/wsl/install)
+
+### Accessing Windows Files from WSL 💻
+
+You can access Windows files using the `/mnt` path:
+```bash
+cd /mnt/c/Users/YourUsername/Documents
