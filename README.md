@@ -2,7 +2,7 @@
 
 <img src="https://github.com/user-attachments/assets/aaeed8ed-65a0-4495-a906-3ad85db3aff8" alt="WSL Logo" width="700"/>
 
-$\color{lightgray}{\text{WSL (Windows Subsystem for Linux) allows you to run Linux distributions natively on Windows 10 and Windows 11, enabling developers to use a Linux environment alongside their Windows applications.} \text{🌟}}$
+$\color{lightgray}{\text{WSL (Windows Subsystem for Linux) allows you to run Linux distributions natively on Windows 10 and Windows 11, enabling developers to use a Linux environment alongside their Windows applications.} \}$
 
 ---
 
@@ -72,6 +72,32 @@ $\color{lightgray}{\text{WSL (Windows Subsystem for Linux) allows you to run Lin
 - To run WSL as the **root** user, use:
   ```bash
   wsl -u root                  
+
+
+## Alerts ⚠️
+
+> [!WARNING]  
+> ![Warning Icon](https://th.bing.com/th/id/OIP.7BuaxItZQ9z-9LD7-qjtNAAAAA?w=179&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7)  
+> If you are experiencing issues starting WSL, ensure that the Virtual Machine Platform and WSL are both enabled in your Windows settings.
+
+<br>
+
+> [!IMPORTANT]   
+> Make sure to regularly update your distribution using:
+> ```bash
+> sudo apt update && sudo apt upgrade
+> ```
+
+---
+
+## Keyboard Shortcuts 🔘
+
+- **Open PowerShell as Administrator:** <kbd>Windows + X</kbd>, then select **Windows PowerShell (Admin)**.
+- **Run WSL:** Type `wsl` in PowerShell or Command Prompt.
+- **Open File Explorer:** <kbd>Windows + E</kbd> to access WSL files.
+- **Shutdown WSL:** Use `wsl --shutdown` in PowerShell.
+
+
 
 ### $\\color{cyan}{\\textbf{Integrations with Other Tools} \\text{🔗}}$
 
